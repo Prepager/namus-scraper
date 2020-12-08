@@ -9,10 +9,12 @@ To work around the 10.000 case search limit, cases are found by searching on a p
 ```
 sudo pip3 install requests
 sudo pip3 install grequests
+sudo pip3 install face_recognition
 ```
 
 ## Scraping
 ```
 python3 scrape-data.py   # Downloads all metadata related to the cases.
 python3 scrape-files.py  # Downloads all files related to the scraped cases.
+python3 process-faces.py # Extracts faces from the downloaded images.
 ```
